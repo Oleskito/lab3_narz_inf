@@ -122,4 +122,4 @@ if __name__ == '__main__':
                 print('  ', bill.amount_pln, bill.date_due, bill.settlement_year, bill.settlement_month, bill.type)
 
     for tenant in manager.tenants.values():
-        print(f">>> LOKATOR: {tenant.name} [Czynsz: {tenant.rent_pln} PLN] <<<")
+        print(f"=== NAJEMCA: {tenant.name} | Pokoj: {tenant.room} ===")
